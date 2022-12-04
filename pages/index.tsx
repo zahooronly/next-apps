@@ -11,7 +11,7 @@ import { useState } from "react";
 import { IoSunny, IoMoon } from "react-icons/io5";
 const Home = () => {
   const { toggleColorMode } = useColorMode();
-  const fromBackground = useColorModeValue("gray.100", "gray.900");
+  const fromBackground = useColorModeValue("gray.300", "gray.900");
   const [toggle, setToggle] = useState(false);
 
   return (
